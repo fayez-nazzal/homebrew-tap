@@ -1,17 +1,17 @@
 class Contrastshot < Formula
   desc "Measure true WCAG contrast over gradients and images by pixel diff"
   homepage "https://github.com/fayez-nazzal/contrastshot"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fayez-nazzal/contrastshot/releases/download/v0.2.0/contrastshot-arm64.tar.gz"
-      sha256 "21525f9aabb63aad425609e7c4c8a36af907c0faac7d804ccc5ec5b3f1b027d4"
+      url "https://github.com/fayez-nazzal/contrastshot/releases/download/v0.2.1/contrastshot-arm64.tar.gz"
+      sha256 "b14fba6378c56fec423fbfe50af3f0ab6160e9bad9044701dc1b63c8a589adf6"
     end
     on_intel do
-      url "https://github.com/fayez-nazzal/contrastshot/releases/download/v0.2.0/contrastshot-x64.tar.gz"
-      sha256 "0d3ed46019c73b8488b23f9ad0ef018160069518ac2b1befaf5226c1ced17929"
+      url "https://github.com/fayez-nazzal/contrastshot/releases/download/v0.2.1/contrastshot-x64.tar.gz"
+      sha256 "5f8cda5ffd744f3e77de1c927d867fed82179c68a6eea7c3854fc6205af00f89"
     end
   end
 
