@@ -1,17 +1,17 @@
 class Browsershot < Formula
   desc "Capture a web page to a PNG or GIF as reviewable evidence"
   homepage "https://github.com/fayez-nazzal/browsershot"
-  version "1.1.1"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fayez-nazzal/browsershot/releases/download/v1.1.1/browsershot-arm64.tar.gz"
-      sha256 "c423d3ad3bdf80da967bfef42545b040fc8a24c8870bf441f1eb314d7118f183"
+      url "https://github.com/fayez-nazzal/browsershot/releases/download/v1.2.0/browsershot-arm64.tar.gz"
+      sha256 "587926375c535709e4d5ef1144e8583dd118669bf368bda0d1fb6d6f9fbabdea"
     end
     on_intel do
-      url "https://github.com/fayez-nazzal/browsershot/releases/download/v1.1.1/browsershot-x64.tar.gz"
-      sha256 "59db1e9b90f8a63a533c8dd639f87f345cc009f86f6e73cbddc9634c72c1b1df"
+      url "https://github.com/fayez-nazzal/browsershot/releases/download/v1.2.0/browsershot-x64.tar.gz"
+      sha256 "0bcc15e0606f3424fa19c93914072e5214294154bf214b7b4416ece894746de2"
     end
   end
 
