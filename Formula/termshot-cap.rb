@@ -1,17 +1,17 @@
 class TermshotCap < Formula
   desc "Run a command in a fresh window and capture it to a PNG with a JSON record"
   homepage "https://github.com/fayez-nazzal/termshot"
-  version "0.5.2"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fayez-nazzal/termshot/releases/download/v0.5.2/termshot-arm64.tar.gz"
-      sha256 "440dc60851bca605a33a66cb404b549c6229d3195b02b4fe41670c6cd06b6ad3"
+      url "https://github.com/fayez-nazzal/termshot/releases/download/v0.6.0/termshot-arm64.tar.gz"
+      sha256 "f4991e675e1d86bf8230f6608fba899c3fe6dbd52b7b3b8430dd581d6101fe2f"
     end
     on_intel do
-      url "https://github.com/fayez-nazzal/termshot/releases/download/v0.5.2/termshot-x64.tar.gz"
-      sha256 "112531906daecac6a871d177b92cb2434446480f6f935ab570017084121b638f"
+      url "https://github.com/fayez-nazzal/termshot/releases/download/v0.6.0/termshot-x64.tar.gz"
+      sha256 "fdf2ce7d6165d942609740ab9653ea13676c7a3677e9fa4eefb2c8316f821278"
     end
   end
 
